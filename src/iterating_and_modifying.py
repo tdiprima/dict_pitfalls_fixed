@@ -2,6 +2,7 @@
 
 my_dict = {"temp_a": 1, "perm_b": 2, "temp_c": 3}
 
+## ✅ Iterate over a copy.
 for key in list(my_dict.keys()):
     if key.startswith("temp"):
         del my_dict[key]
