@@ -13,4 +13,4 @@ This repo's got examples of common Python dictionary goofs 💀 and how to fix '
 - `efficient_key_check.py`: Efficient key existence checks
 - `using_items_method.py`: Iterating with .items()
 - `dict_comprehension.py`: Dictionary comprehensions
-- `set_arithmetic_bonus.py`: Set operations on keys
+- `set_arithmetic_keys.py`: Set operations on keys
