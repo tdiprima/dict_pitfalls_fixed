@@ -1,5 +1,13 @@
 So this code's showing off a **clean little power move** with Python sets 🧠✨
 
+```py
+required = set("ABX")
+d1 = {"A": 1, "B": 2, "C":3}
+d2 = {**d1, "X": 4}
+print("d1", d1.keys() >= required)
+print("d2", d2.keys() >= required)
+```
+
 You've got a list of **required keys**, and you wanna check if your dict's got all of 'em. Normally, people might do something like:
 
 ```python
