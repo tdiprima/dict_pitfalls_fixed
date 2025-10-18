@@ -1,3 +1,5 @@
+## Set Arithmetic Flex
+
 So this code's showing off a **clean little power move** with Python sets 🧠✨
 
 ```py
