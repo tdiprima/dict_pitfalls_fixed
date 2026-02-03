@@ -39,3 +39,5 @@ print("d2 has all required:", d2.keys() >= required)  # True
 TL;DR:  
 ✅ Use `d.keys() >= required` → efficient + elegant  
 ❌ Loop over keys manually → it works, but kinda mid
+
+<br>

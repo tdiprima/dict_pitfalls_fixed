@@ -14,3 +14,5 @@ If you tried using a list instead, like `[1, 2]`, Python would throw a `TypeErro
 So TL;DR:  
 ✅ Tuples work as dict keys (immutable gang 💪)  
 ❌ Lists don't (too unstable 😭)
+
+<br>
