@@ -3,7 +3,7 @@
 required = set(["A", "B", "X"])
 
 d1 = {"A": 1, "B": 2, "C": 3}
-d2 = {**d1, "X": 4}
+d2 = d1 | {"X": 4}
 
 print("d1 has all required:", d1.keys() >= required)  # False
 print("d2 has all required:", d2.keys() >= required)  # True
